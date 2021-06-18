@@ -22,13 +22,13 @@
   here by introducing it's own conventions, which cover these new features too.
   
 * Google Java Style Guide (2018).  
-[Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)   
+  [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)   
  
- Google's convetions are important because Google is a tech giant and developed 
-tons of Java applications. Also, Google covered the new Java features.
+  Google's convetions are important because Google is a tech giant and developed 
+  tons of Java applications. Also, Google covered the new Java features.
 
 * Maven naming conventions.  
-[Maven guide to naming conventions](https://maven.apache.org/guides/mini/guide-naming-conventions.html)
+  [Maven guide to naming conventions](https://maven.apache.org/guides/mini/guide-naming-conventions.html)
 
 * Git naming conventions  
-[Git/GitHub branching standards & conventions](https://gist.github.com/digitaljhelms/4287848)
+  [Git/GitHub branching standards & conventions](https://gist.github.com/digitaljhelms/4287848)

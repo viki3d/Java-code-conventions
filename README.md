@@ -24,7 +24,7 @@
 * Google Java Style Guide (2018).  
   [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)   
  
-  Google's convetions are important because Google is a tech giant and developed 
+  > Google's convetions are important because Google is a tech giant and developed 
   tons of Java applications. Also, Google covered the new Java features.
 
 * Maven naming conventions.  

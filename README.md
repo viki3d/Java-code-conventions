@@ -6,7 +6,7 @@
 * Speeding up the work
 * Hardly any software is maintained for its whole life by the original author
 
-## Most important conventions
+## The most important conventions
 * Oracle Code Conventions for the Java (1999).  
   [Code Conventions for the Java TM Programming Language](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html).
   
@@ -19,7 +19,7 @@
   > Q: Any updates?  
   A: Unfortunatelly - no. After Java 8 has been released the new features, like
   lambdas and streams are missing in the classic convention. Google stepped in
-  here by introducing it's own conventions, which cover these new features too.
+  here by altering some of the classic conventions and cover these new features too.
   
 * Google Java Style Guide (2018).  
   [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)   

@@ -28,7 +28,11 @@
   tons of Java applications. Also, Google covered the new Java features.
 
 * Maven naming conventions.  
-  [Maven guide to naming conventions](https://maven.apache.org/guides/mini/guide-naming-conventions.html)
+  [Maven guide to naming conventions on *groupId*, *artifactId*, and *version*](https://maven.apache.org/guides/mini/guide-naming-conventions.html)  
+  [Test Class Names for Maven Surefire Plugin](https://maven.apache.org/surefire/maven-surefire-plugin/examples/junit-platform.html#Filtering_by_Test_Class_Names_for_Maven_Surefire)  
+
+  > Q: What is Maven Surefire Plugin?  
+  A: This plugin runs the tests of a Maven project  
 
 * Git naming conventions  
   [Git/GitHub branching standards & conventions](https://gist.github.com/digitaljhelms/4287848)

@@ -37,8 +37,9 @@
 * Git naming conventions  
   [Git/GitHub branching standards & conventions](https://gist.github.com/digitaljhelms/4287848)
 
-## Specific code conventions
-Many companies have their own code conventions. So the developers should be able to switch into any code convention required for them.  
+## Companies specific code conventions
+Many companies have their own code conventions. So the developers should be able to switch into any code convention required for them.
+Here are a few examples for specific Java conventions in different companies.
 
 * [Ambysoft's Coding Standards for Java](http://www.ambysoft.com/essays/javaCodingStandards.html)   
 * [GeoSoft's Java Programming Style Guidelines](http://geosoft.no/development/javastyle.html)   

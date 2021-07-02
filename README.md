@@ -38,7 +38,7 @@
   [Git/GitHub branching standards & conventions](https://gist.github.com/digitaljhelms/4287848)
 
 ## Companies specific code conventions
-Many companies have their own code conventions. So the developers should be able to switch into any code convention required for them.
+Many companies have their own code conventions. So the developers should be able to switch into any code convention required.
 Here are a few examples for specific Java conventions in different companies.
 
 * [Ambysoft's Coding Standards for Java](http://www.ambysoft.com/essays/javaCodingStandards.html)   

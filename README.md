@@ -29,8 +29,9 @@
 
 * Maven naming conventions.  
   [Maven guide to naming conventions on *groupId*, *artifactId*, and *version*](https://maven.apache.org/guides/mini/guide-naming-conventions.html)  
-  [Test Class Names for Maven Surefire Plugin](https://maven.apache.org/surefire/maven-surefire-plugin/examples/junit-platform.html#Filtering_by_Test_Class_Names_for_Maven_Surefire)  
-
+  [Unit Tests Class Names for Maven Surefire Plugin](https://maven.apache.org/surefire/maven-surefire-plugin/examples/junit-platform.html#Filtering_by_Test_Class_Names_for_Maven_Surefire)  
+  [Integration Tests Class Names for Maven Failsafe Plugin](https://maven.apache.org/surefire/maven-failsafe-plugin/examples/inclusion-exclusion.html)  
+  
   > Q: What is Maven Surefire Plugin?  
   A: This plugin runs the tests of a Maven project  
 

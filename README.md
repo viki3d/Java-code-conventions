@@ -36,6 +36,7 @@
 
 * Git naming conventions  
   [Git/GitHub branching standards & conventions](https://gist.github.com/digitaljhelms/4287848)
+  [Github repositories naming conventions](https://talis.github.io/topics/names.html)
 
 ## Companies specific code conventions
 Many companies have their own code conventions. So the developers should be able to switch into any code convention required.

@@ -16,11 +16,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-    <properties>
-    	<java.version>11</java.version>
-        <maven.compiler.target>${java.version}</maven.compiler.target>
-        <maven.compiler.source>${java.version}</maven.compiler.source>
-    </properties>
+	<properties>
+		<java.version>11</java.version>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
+	</properties>
 	
 	
 	<dependencies>
@@ -64,21 +64,20 @@
 	
 	<build>
 		<plugins>
-		
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 			
 			<plugin>
-	            <groupId>org.apache.maven.plugins</groupId>
-	            <artifactId>maven-surefire-plugin</artifactId>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
 				<configuration>
 					<excludes>
 						<exclude>**/NumbersServiceTests.java</exclude>
 					</excludes>
 				</configuration>	            
-        	</plugin>
+			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
@@ -88,7 +87,6 @@
 					</sourceFileExcludes>					
 				</configuration>
 			</plugin>
-			
 		</plugins>
 	</build>	
 	

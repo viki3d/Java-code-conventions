@@ -1,0 +1,6 @@
+/.project
+/.classpath
+/.settings
+/target/
+/logback.log
+/logback-test.log

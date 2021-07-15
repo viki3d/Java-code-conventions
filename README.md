@@ -43,3 +43,7 @@ Here are a few examples for specific Java conventions in different companies.
 * [Ambysoft's Coding Standards for Java](http://www.ambysoft.com/essays/javaCodingStandards.html)   
 * [GeoSoft's Java Programming Style Guidelines](http://geosoft.no/development/javastyle.html)   
 * [Java Coding Standards at Curlie](https://curlie.org/Computers/Programming/Languages/Java/Coding_Standards/)   
+
+* [Java Coding Standards at Mozilla](https://firefox-source-docs.mozilla.org/code-quality/coding-style/coding_style_java.html)  
+* [Java Coding Standards at Android Platform](https://source.android.com/setup/contribute/code-style)  
+

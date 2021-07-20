@@ -35,11 +35,11 @@ public interface NumbersApi {
    * @return Squares of all numbers in the interval [0, number] in JSON.
    * 
    * @throws IllegalArgumentException when:
-   * <ul>
-   *     <li>{@code number} is not parsable {@code int}</li> 
-   *     <li>{@code number} doesn't obey the limits [{@link NumbersApi.Limits#MIN}, 
-   *     {@link NumbersApi.Limits#MAX}]</li>
-   * </ul>
+   *     <ul>
+   *         <li>{@code number} is not parsable {@code int}</li> 
+   *         <li>{@code number} doesn't obey the limits [{@link NumbersApi.Limits#MIN}, 
+   *         {@link NumbersApi.Limits#MAX}]</li>
+   *     </ul>
    * 
    * @see <a href="http://localhost:8080/api/v1/numbers/squares/5" target="_blank">test link</a>
    * 
@@ -55,11 +55,11 @@ public interface NumbersApi {
    * @return All odd numbers in the interval [0, number] in JSON.
    * 
    * @throws IllegalArgumentException when:
-   * <ul>
-   *     <li>{@code number} is not parsable {@code int}</li> 
-   *     <li>{@code number} doesn't obey the limits [{@link NumbersApi.Limits#MIN}, 
-   *     {@link NumbersApi.Limits#MAX}]</li>
-   * </ul>
+   *     <ul>
+   *         <li>{@code number} is not parsable {@code int}</li> 
+   *         <li>{@code number} doesn't obey the limits [{@link NumbersApi.Limits#MIN}, 
+   *         {@link NumbersApi.Limits#MAX}]</li>
+   *     </ul>
    * 
    * @see <a href="http://localhost:8080/api/v1/numbers/odds/5" target="_blank">test link</a>
    * 
@@ -75,11 +75,11 @@ public interface NumbersApi {
    * @return The sum of numbers in the interval [0, number] in JSON.
    * 
    * @throws IllegalArgumentException when:
-   * <ul>
-   *     <li>{@code number} is not parsable {@code int}</li> 
-   *     <li>{@code number} doesn't obey the limits [{@link NumbersApi.Limits#MIN}, 
-   *     {@link NumbersApi.Limits#MAX}]</li>
-   * </ul>
+   *     <ul>
+   *         <li>{@code number} is not parsable {@code int}</li> 
+   *         <li>{@code number} doesn't obey the limits [{@link NumbersApi.Limits#MIN}, 
+   *         {@link NumbersApi.Limits#MAX}]</li>
+   *     </ul>
    *
    * @see <a href="http://localhost:8080/api/v1/numbers/sum/5" target="_blank">test link</a>
    * 

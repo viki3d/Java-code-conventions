@@ -100,13 +100,38 @@
                     </dependency>
                 </dependencies>        
                 <configuration>
-                    <configLocation>google_checks.xml</configLocation>
+                    <!-- 
+                    <violationSeverity>warning</violationSeverity> 
+                    -->
+                    <encoding>UTF-8</encoding>
                     <consoleOutput>true</consoleOutput>
                     <logViolationsToConsole>true</logViolationsToConsole>
                     <linkXRef>false</linkXRef>
+                    <configLocation>google_checks.xml</configLocation>
+                    <!-- Override specific rules into custom file by modifying original file -->
+                    <!--
+                    <configLocation>custom_google_checks.xml</configLocation>
+                    -->
+                    <!-- Introduce/Define custom in-line rules; Can not override default rules. -->
+                    <!--
+                    <checkstyleRules>
+                        <module name="Checker">
+                            <module name="TreeWalker">
+                                <module name="Indentation">
+                                  <property name="basicOffset" value="2"/>
+                                  <property name="lineWrappingIndentation" value="4"/>
+                                  <property name="arrayInitIndent" value="2"/>
+                                </module>
+                            </module>
+                        </module>
+                    </checkstyleRules>
+                    -->
+                    <!--
+                    <excludes>**/module-info.java</excludes>
+                    -->
                 </configuration>
-                
             </plugin>
+
         </plugins>
     </build>
     

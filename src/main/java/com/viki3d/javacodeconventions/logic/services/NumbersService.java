@@ -29,11 +29,11 @@ public class NumbersService implements NumbersApi {
    * @param number 
    * 
    * @throws IllegalArgumentException when:
-   * <ul>
-   *     <li>{@code number} is not parsable {@code int}</li> 
-   *     <li>{@code number} doesn't obey the limits [{@link NumbersApi.Limits#MIN}, 
-   *     {@link NumbersApi.Limits#MAX}]</li>
-   * </ul>
+   *     <ul>
+   *         <li>{@code number} is not parsable {@code int}</li> 
+   *         <li>{@code number} doesn't obey the limits [{@link NumbersApi.Limits#MIN}, 
+   *         {@link NumbersApi.Limits#MAX}]</li>
+   *     </ul>
    *
    * @see here {@code NumbersApi.squares}
    * @see here {@code NumbersApi.odds}
@@ -46,46 +46,55 @@ public class NumbersService implements NumbersApi {
           + Limits.MIN.getValue() + ", " + Limits.MAX.getValue() + "]");
     }
   }
-  
-  /**
-   * Implements {@code NumbersApi.squares}.
+
+  /** 
+   * {@inheritDoc}
+   *
+   * @return Squares of all numbers in the interval [0, number].
    */
+  @Override
   public List<Integer> squares(int number) {
     logger.trace(".squares(" + number + ")");    
     verifyLimits(number);
-    
+
     List<Integer> squares = IntStream.rangeClosed(0, number)
         .map(n -> (int) Math.pow(n, 2))
         .boxed()
         .collect(Collectors.toList());
-    
+
     return squares;
   }
   
   /**
-   * Implements {@code NumbersApi.odds}.
+   * {@inheritDoc}
+   *
+   * @return All odd numbers in the interval [0, number].
    */
+  @Override
   public List<Integer> odds(int number) {
     logger.trace(".odds(" + number + ")");    
     verifyLimits(number);
-    
+
     List<Integer> odds = IntStream.rangeClosed(0, number)
         .filter(n -> n % 2 == 1)
         .boxed()
         .collect(Collectors.toList());
-    
+
     return odds;
   }  
   
   /**
-   * Implements {@code NumbersApi.sum}.
+   * {@inheritDoc}
+   *
+   * @return The sum of numbers in the interval [0, number].
    */
+  @Override
   public int sum(int number) {
     logger.trace(".sum(" + number + ")");
     verifyLimits(number);
-    
+
     int sum = IntStream.rangeClosed(0, number).reduce(0, Integer::sum);
-    
+
     return sum;
   }  
   

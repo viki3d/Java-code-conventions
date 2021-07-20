@@ -25,18 +25,21 @@ public class NumbersRestController implements NumbersApi {
   @Autowired
   private NumbersService numbersService;
 
+  @Override
   @GetMapping(path = "/squares/{number}", produces = "application/json")
   public List<Integer> squares(@PathVariable("number") int number) {
     logger.trace(".squares(" + number + ")");
     return numbersService.squares(number);
   }
   
+  @Override
   @GetMapping(path = "/odds/{number}", produces = "application/json")
   public List<Integer> odds(@PathVariable("number") int number) {
     logger.trace(".odds(" + number + ")");
     return numbersService.odds(number);
   }
   
+  @Override
   @GetMapping(path = "/sum/{number}", produces = "application/json")
   public int sum(@PathVariable("number") int number) {
     logger.trace(".sum(" + number + ")");

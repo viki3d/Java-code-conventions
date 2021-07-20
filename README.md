@@ -29,8 +29,8 @@
 
 * Maven naming conventions.  
   [Maven guide to naming conventions on *groupId*, *artifactId*, and *version*](https://maven.apache.org/guides/mini/guide-naming-conventions.html)  
-  [Maven Surefire Plugin - Unit Tests Class Names](https://maven.apache.org/surefire/maven-surefire-plugin/examples/junit-platform.html#Filtering_by_Test_Class_Names_for_Maven_Surefire)  
-  [Maven Failsafe Plugin - Integration Tests Class Names](https://maven.apache.org/surefire/maven-failsafe-plugin/examples/inclusion-exclusion.html)  
+  [Maven Surefire Plugin - _Unit Tests Class Names_](https://maven.apache.org/surefire/maven-surefire-plugin/examples/junit-platform.html#Filtering_by_Test_Class_Names_for_Maven_Surefire)  
+  [Maven Failsafe Plugin - _Integration Tests Class Names_](https://maven.apache.org/surefire/maven-failsafe-plugin/examples/inclusion-exclusion.html)  
 
 * Git naming conventions  
   [Git/GitHub branching standards & conventions](https://gist.github.com/digitaljhelms/4287848)  
@@ -44,7 +44,14 @@ Here are a few examples for specific Java conventions in different companies.
 * [GeoSoft's Java Programming Style Guidelines](http://geosoft.no/development/javastyle.html)   
 * [Java Coding Standards at Curlie](https://curlie.org/Computers/Programming/Languages/Java/Coding_Standards/)   
 
-Some other standard pretenders:
+Some other code-standard pretenders:
 * [Java Coding Standards at Mozilla](https://firefox-source-docs.mozilla.org/code-quality/coding-style/coding_style_java.html)  
 * [Java Coding Standards at Android Platform](https://source.android.com/setup/contribute/code-style)  
+
+## Plugins
+* [Checkstyle](https://checkstyle.sourceforge.io)  
+
+## Links
+* [Tabs vs Spaces: We at Takipi use tabs](https://dzone.com/articles/tabs-vs-spaces-how-they-write-java-in-google-twitt)  
+* [Tabs vs Spaces](https://ukupat.github.io/tabs-or-spaces/)  
 

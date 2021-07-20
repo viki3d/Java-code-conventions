@@ -53,5 +53,5 @@ Some other code-standard pretenders:
 
 ## Links
 * [Tabs vs Spaces: We at Takipi use tabs (we’re not barbarians)](https://dzone.com/articles/tabs-vs-spaces-how-they-write-java-in-google-twitt)  
-* [Tabs vs Spaces](https://ukupat.github.io/tabs-or-spaces/)  
+* [Tabs vs Spaces usage](https://ukupat.github.io/tabs-or-spaces/)  
 
